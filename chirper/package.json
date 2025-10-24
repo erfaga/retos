@@ -1,0 +1,37 @@
+{
+  "name": "chirper",
+  "version": "1.0.0",
+  "description": "A social media application that allows users to post and interact with tweets.",
+  "main": "apps/api/src/server.ts",
+  "scripts": {
+    "start": "node apps/api/src/server.ts",
+    "test": "jest",
+    "build": "tsc -p apps/api/tsconfig.json"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.0",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^14.14.31",
+    "@types/express": "^4.17.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/chirper.git"
+  },
+  "keywords": [
+    "social media",
+    "tweets",
+    "chirper"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

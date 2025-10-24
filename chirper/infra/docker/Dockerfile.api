@@ -1,0 +1,19 @@
+FROM node:18
+
+# Set the working directory
+WORKDIR /usr/src/app
+
+# Copy package.json and package-lock.json
+COPY apps/api/package*.json ./
+
+# Install dependencies
+RUN npm install
+
+# Copy the rest of the application code
+COPY apps/api/src ./src
+
+# Expose the API port
+EXPOSE 3000
+
+# Command to run the application
+CMD ["npm", "start"]

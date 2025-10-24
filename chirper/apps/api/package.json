@@ -1,0 +1,33 @@
+{
+  "name": "chirper-api",
+  "version": "1.0.0",
+  "description": "API for Chirper, a social media platform competing with Twitter.",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "ts-node": "^9.1.1",
+    "jest": "^26.6.3",
+    "@types/jest": "^26.0.24",
+    "@types/express": "^4.17.8",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^8.5.0"
+  },
+  "keywords": [
+    "chirper",
+    "api",
+    "social media",
+    "twitter clone"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
